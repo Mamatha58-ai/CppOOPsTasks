@@ -1,2 +1,2 @@
-# 1. C++ Object-Oriented Programming (OOP) Tasks
+# 1. Cpp oops tasks
 my way in Ⅲ SEM
