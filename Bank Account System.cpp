@@ -3,13 +3,13 @@ using namespace std;
 class BankAccount{
 	private :
 		double balance;
-		long an;
+		long account_number;
 	public :
 		string holdername;
 		// constructor
 	BankAccount(double b , long a , string h ){
 	   balance = b;
-	   an = a;
+	 account_number   = a;
 	   holdername = h;
 	}
 	// setter
@@ -28,7 +28,7 @@ class BankAccount{
 };
 int main(){
 	// create object and access values 
-	BankAccount acc1(900 ,485 , "brunda");
+	BankAccount acc1(900 ,485 , "vikranth");
 	acc1.deposit(100);
 	acc1.withdraw(100);
 	acc1.checkba();
